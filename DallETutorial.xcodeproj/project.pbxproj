@@ -11,6 +11,10 @@
 		5C4A9A10291BAAD700D2B2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A9A0F291BAAD700D2B2B5 /* ContentView.swift */; };
 		5C4A9A12291BAAD700D2B2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A9A11291BAAD700D2B2B5 /* Assets.xcassets */; };
 		5C4A9A15291BAAD700D2B2B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A9A14291BAAD700D2B2B5 /* Preview Assets.xcassets */; };
+		5C4A9A1C291BAD9A00D2B2B5 /* DallEImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A9A1B291BAD9A00D2B2B5 /* DallEImageGenerator.swift */; };
+		5C4A9A1E291BAED000D2B2B5 /* ModerationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A9A1D291BAED000D2B2B5 /* ModerationResponse.swift */; };
+		5C4A9A20291BAF9900D2B2B5 /* ImageGenerationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A9A1F291BAF9900D2B2B5 /* ImageGenerationResponse.swift */; };
+		5C4A9A22291BB10A00D2B2B5 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A9A21291BB10A00D2B2B5 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5C4A9A0F291BAAD700D2B2B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C4A9A11291BAAD700D2B2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C4A9A14291BAAD700D2B2B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C4A9A1B291BAD9A00D2B2B5 /* DallEImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DallEImageGenerator.swift; sourceTree = "<group>"; };
+		5C4A9A1D291BAED000D2B2B5 /* ModerationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModerationResponse.swift; sourceTree = "<group>"; };
+		5C4A9A1F291BAF9900D2B2B5 /* ImageGenerationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerationResponse.swift; sourceTree = "<group>"; };
+		5C4A9A21291BB10A00D2B2B5 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				5C4A9A0D291BAAD700D2B2B5 /* DallETutorialApp.swift */,
 				5C4A9A0F291BAAD700D2B2B5 /* ContentView.swift */,
+				5C4A9A21291BB10A00D2B2B5 /* Secret.swift */,
+				5C4A9A1B291BAD9A00D2B2B5 /* DallEImageGenerator.swift */,
+				5C4A9A1F291BAF9900D2B2B5 /* ImageGenerationResponse.swift */,
+				5C4A9A1D291BAED000D2B2B5 /* ModerationResponse.swift */,
 				5C4A9A11291BAAD700D2B2B5 /* Assets.xcassets */,
 				5C4A9A13291BAAD700D2B2B5 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4A9A1E291BAED000D2B2B5 /* ModerationResponse.swift in Sources */,
+				5C4A9A22291BB10A00D2B2B5 /* Secret.swift in Sources */,
+				5C4A9A1C291BAD9A00D2B2B5 /* DallEImageGenerator.swift in Sources */,
 				5C4A9A10291BAAD700D2B2B5 /* ContentView.swift in Sources */,
 				5C4A9A0E291BAAD700D2B2B5 /* DallETutorialApp.swift in Sources */,
+				5C4A9A20291BAF9900D2B2B5 /* ImageGenerationResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,7 @@
 				DEVELOPMENT_TEAM = 6YDE2UY2S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Needed to save your generated images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +316,7 @@
 				DEVELOPMENT_TEAM = 6YDE2UY2S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Needed to save your generated images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
